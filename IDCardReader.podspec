@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IDCardReader"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "This package handles reading an NFC Enabled passport using iOS 13 CoreNFC APIS"
 
   spec.homepage     = "https://github.com/trungnguyen1791/CardReader"
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "13.0"
 
-  spec.source            = { :http => 'https://github.com/trungnguyen1791/CardReader/archive/refs/tags/1.0.0.zip' }
+  spec.source            = { :http => 'https://github.com/trungnguyen1791/CardReader/releases/download/1.0.2/IDCardReader.xcframework.zip' }
   spec.ios.vendored_frameworks = 'IDCardReader.xcframework'
   spec.swift_version = "5.0"
 
