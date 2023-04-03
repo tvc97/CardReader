@@ -5,6 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "This package handles reading an NFC Enabled passport using iOS 13 CoreNFC APIS"
 
   spec.homepage     = "https://github.com/trungnguyen1791/CardReader"
+  spec.author           = { 'My Name' => 'myemail@example.com' }
   spec.license      = "MIT"
   spec.platform = :ios
   spec.ios.deployment_target = "13.0"
