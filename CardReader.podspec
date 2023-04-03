@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "13.0"
 
-  spec.source            = { :http => 'https://github.com/my-org/my-framework-podspecs/releases/download/0.0.1/MyFramework.xcframework.zip' }
+  spec.source            = { :http => 'https://github.com/trungnguyen1791/CardReader/archive/refs/tags/1.0.0.zip' }
   spec.ios.vendored_frameworks = 'IDCardReader.xcframework'
   spec.swift_version = "5.0"
 
