@@ -17770,7 +17770,7 @@
           {
             "kind": "Function",
             "name": "setup",
-            "printedName": "setup(appId:)",
+            "printedName": "setup(appId:clientId:license:logLevel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17782,11 +17782,125 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "IDCardReader.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "s:12IDCardReader8LogLevelO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12IDCardReader0aB7ManagerC5setup5appIdySS_tF",
-            "mangledName": "$s12IDCardReader0aB7ManagerC5setup5appIdySS_tF",
+            "usr": "s:12IDCardReader0aB7ManagerC5setup5appId06clientF07license8logLevelySS_S2SAA03LogJ0OtF",
+            "mangledName": "$s12IDCardReader0aB7ManagerC5setup5appId06clientF07license8logLevelySS_S2SAA03LogJ0OtF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLocalizeTexts",
+            "printedName": "setLocalizeTexts(requestPresentCard:authenticating:reading:errorReading:successReading:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader0aB7ManagerC16setLocalizeTexts18requestPresentCard14authenticating7reading12errorReading07successM0ySSSg_A4JtF",
+            "mangledName": "$s12IDCardReader0aB7ManagerC16setLocalizeTexts18requestPresentCard14authenticating7reading12errorReading07successM0ySSSg_A4JtF",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "AccessControl"
@@ -24118,8 +24232,22 @@
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 985,
+      "length": 10,
+      "value": "\"com.pvcb\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1031,
       "length": 38,
-      "value": "\"950445d6-1822-4df6-bb3c-5e89074cf547\""
+      "value": "\"400816bb-e03c-47ac-b5ed-1cd15c08f493\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1104,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/PassportReader.swift",

@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		p9c++PdwdgfkyBGNlS/SUVw9iLQ=
+		QavFxEkE6UsHltZrPrd5VLHMEIs=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		f/8yX2gcLta3e+BZrG5/DvOSrCY=
+		3So8B3+mrodRNXfjn6HBZnM5PVs=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		f/8yX2gcLta3e+BZrG5/DvOSrCY=
+		3So8B3+mrodRNXfjn6HBZnM5PVs=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Pc/U0NrVfp9qtssat3RyclCivCM=
+		miQXeI8fdukizy+u7sZZ7XVS85w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,10 +43,6 @@
 		<key>masterList.pem</key>
 		<data>
 		5cBvWkViftgNLB5rNuBeffwEGSU=
-		</data>
-		<key>private.pem</key>
-		<data>
-		njl8pdZJ/XXcZPoC7N6VzELGe6k=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -69,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HDjV8KftgcuzDUMZ1/0cA2CAFbp5W2ncA8+n6p8/ln8=
+			1yzz8x3pgpQ/wi6yLRJANWJdBVlvO/PJdYROFbQekpI=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kDVACQ7Wufin53xtiiu8jyIE2VUJuA5ugEIss7IMTCk=
+			fnKCOfZOsH/dwPD8a44Up+rz+28cpW58Mphx8pkqeUs=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -90,14 +86,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kDVACQ7Wufin53xtiiu8jyIE2VUJuA5ugEIss7IMTCk=
+			fnKCOfZOsH/dwPD8a44Up+rz+28cpW58Mphx8pkqeUs=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t58IKpHcRQryFqScI/XPl4hxwWzQUUIZSc42ugOAY4U=
+			10JWQ3GoQpLxtZzS55W+NGP43yCOdB0MGszYR/VQNAA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -112,13 +108,6 @@
 			<key>hash2</key>
 			<data>
 			YqreDTLezJuUXbtzN8aNNSL6iqay7xi6PoTp/vq4fws=
-			</data>
-		</dict>
-		<key>private.pem</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5DpxZupVigpVhqZP+waN7LyyNtS4BBjI0Cx6XRFpohY=
 			</data>
 		</dict>
 	</dict>
