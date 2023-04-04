@@ -17770,18 +17770,12 @@
           {
             "kind": "Function",
             "name": "setup",
-            "printedName": "setup(appId:clientId:license:logLevel:)",
+            "printedName": "setup(appId:license:logLevel:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -17804,8 +17798,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12IDCardReader0aB7ManagerC5setup5appId06clientF07license8logLevelySS_S2SAA03LogJ0OtF",
-            "mangledName": "$s12IDCardReader0aB7ManagerC5setup5appId06clientF07license8logLevelySS_S2SAA03LogJ0OtF",
+            "usr": "s:12IDCardReader0aB7ManagerC5setup5appId7license8logLevelySS_SSAA03LogI0OtF",
+            "mangledName": "$s12IDCardReader0aB7ManagerC5setup5appId7license8logLevelySS_SSAA03LogI0OtF",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "AccessControl"
@@ -17909,48 +17903,8 @@
           },
           {
             "kind": "Function",
-            "name": "readCard",
-            "printedName": "readCard(cardId:dateOfBirth:dateOfExpiry:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IDCardRawData",
-                "printedName": "IDCardReader.IDCardRawData",
-                "usr": "s:12IDCardReader0A7RawDataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12IDCardReader0aB7ManagerC8readCard6cardId11dateOfBirth0hI6ExpiryAA0A7RawDataVSS_S2StYaKF",
-            "mangledName": "$s12IDCardReader0aB7ManagerC8readCard6cardId11dateOfBirth0hI6ExpiryAA0A7RawDataVSS_S2StYaKF",
-            "moduleName": "IDCardReader",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "parseCard",
-            "printedName": "parseCard(data:faceImg:certificate:)",
+            "name": "readIDCard",
+            "printedName": "readIDCard(cardId:dateOfBirth:dateOfExpiry:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17960,17 +17914,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.UInt8]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
-                  }
-                ],
-                "usr": "s:Sa"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -17986,12 +17932,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12IDCardReader0aB7ManagerC9parseCard4data7faceImg11certificateAA0A19InformationResponseVSays5UInt8VG_S2StYaKF",
-            "mangledName": "$s12IDCardReader0aB7ManagerC9parseCard4data7faceImg11certificateAA0A19InformationResponseVSays5UInt8VG_S2StYaKF",
+            "usr": "s:12IDCardReader0aB7ManagerC04readA06cardId11dateOfBirth0gH6ExpiryAA0A19InformationResponseVSS_S2StYaKF",
+            "mangledName": "$s12IDCardReader0aB7ManagerC04readA06cardId11dateOfBirth0gH6ExpiryAA0A19InformationResponseVSS_S2StYaKF",
             "moduleName": "IDCardReader",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -24238,14 +24183,7 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 1031,
-      "length": 38,
-      "value": "\"400816bb-e03c-47ac-b5ed-1cd15c08f493\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1030,
       "length": 2,
       "value": "\"\""
     },

@@ -768,13 +768,10 @@ public class NotImplementedDG : IDCardReader.DataGroup {
 }
 @objc @_inheritsConvenienceInitializers public class IDCardReaderManager : ObjectiveC.NSObject {
   public static let shared: IDCardReader.IDCardReaderManager
-  public func setup(appId: Swift.String, clientId: Swift.String, license: Swift.String, logLevel: IDCardReader.LogLevel = .debug)
+  public func setup(appId: Swift.String, license: Swift.String, logLevel: IDCardReader.LogLevel = .debug)
   public func setLocalizeTexts(requestPresentCard: Swift.String? = nil, authenticating: Swift.String? = nil, reading: Swift.String? = nil, errorReading: Swift.String? = nil, successReading: Swift.String? = nil)
   #if compiler(>=5.3) && $AsyncAwait
-  public func readCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardRawData
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func parseCard(data: [Swift.UInt8], faceImg: Swift.String, certificate: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
+  public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
