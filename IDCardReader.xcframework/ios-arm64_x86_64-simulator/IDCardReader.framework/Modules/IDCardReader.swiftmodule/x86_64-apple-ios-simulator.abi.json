@@ -9071,6 +9071,1183 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "IDCardReader"
+      },
+      {
+        "kind": "Import",
+        "name": "ARVideoKit",
+        "printedName": "ARVideoKit",
+        "declKind": "Import",
+        "moduleName": "IDCardReader"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessError",
+        "printedName": "LivenessError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noFaceDetected",
+            "printedName": "noFaceDetected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessError.Type) -> IDCardReader.LivenessError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessError",
+                    "printedName": "IDCardReader.LivenessError",
+                    "usr": "s:12IDCardReader13LivenessErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessError",
+                        "printedName": "IDCardReader.LivenessError",
+                        "usr": "s:12IDCardReader13LivenessErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader13LivenessErrorO14noFaceDetectedyA2CmF",
+            "mangledName": "$s12IDCardReader13LivenessErrorO14noFaceDetectedyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "badImage",
+            "printedName": "badImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessError.Type) -> IDCardReader.LivenessError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessError",
+                    "printedName": "IDCardReader.LivenessError",
+                    "usr": "s:12IDCardReader13LivenessErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessError",
+                        "printedName": "IDCardReader.LivenessError",
+                        "usr": "s:12IDCardReader13LivenessErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader13LivenessErrorO8badImageyA2CmF",
+            "mangledName": "$s12IDCardReader13LivenessErrorO8badImageyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "noVerificationInstruction",
+            "printedName": "noVerificationInstruction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessError.Type) -> IDCardReader.LivenessError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessError",
+                    "printedName": "IDCardReader.LivenessError",
+                    "usr": "s:12IDCardReader13LivenessErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessError",
+                        "printedName": "IDCardReader.LivenessError",
+                        "usr": "s:12IDCardReader13LivenessErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader13LivenessErrorO25noVerificationInstructionyA2CmF",
+            "mangledName": "$s12IDCardReader13LivenessErrorO25noVerificationInstructionyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessError",
+                "printedName": "IDCardReader.LivenessError",
+                "usr": "s:12IDCardReader13LivenessErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessError",
+                "printedName": "IDCardReader.LivenessError",
+                "usr": "s:12IDCardReader13LivenessErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader13LivenessErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12IDCardReader13LivenessErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "IDCardReader",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader13LivenessErrorO9hashValueSivp",
+            "mangledName": "$s12IDCardReader13LivenessErrorO9hashValueSivp",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader13LivenessErrorO9hashValueSivg",
+                "mangledName": "$s12IDCardReader13LivenessErrorO9hashValueSivg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader13LivenessErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12IDCardReader13LivenessErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12IDCardReader13LivenessErrorO",
+        "mangledName": "$s12IDCardReader13LivenessErrorO",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessAction",
+        "printedName": "LivenessAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eyesLookIn",
+            "printedName": "eyesLookIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO10eyesLookInyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO10eyesLookInyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "smile",
+            "printedName": "smile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO5smileyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO5smileyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "wink",
+            "printedName": "wink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO4winkyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO4winkyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "headPoseUp",
+            "printedName": "headPoseUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO10headPoseUpyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO10headPoseUpyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "headPoseDown",
+            "printedName": "headPoseDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO12headPoseDownyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO12headPoseDownyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "headPoseLeft",
+            "printedName": "headPoseLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO12headPoseLeftyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO12headPoseLeftyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "headPoseRight",
+            "printedName": "headPoseRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO13headPoseRightyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO13headPoseRightyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "startVerification",
+            "printedName": "startVerification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO17startVerificationyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO17startVerificationyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "fetchConfig",
+            "printedName": "fetchConfig",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO11fetchConfigyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO11fetchConfigyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.LivenessAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IDCardReader14LivenessActionO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12IDCardReader14LivenessActionO8rawValueACSgSi_tcfc",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader14LivenessActionO8rawValueSivp",
+            "mangledName": "$s12IDCardReader14LivenessActionO8rawValueSivp",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader14LivenessActionO8rawValueSivg",
+                "mangledName": "$s12IDCardReader14LivenessActionO8rawValueSivg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12IDCardReader14LivenessActionO",
+        "mangledName": "$s12IDCardReader14LivenessActionO",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ARLivenessDetectorDelegate",
+        "printedName": "ARLivenessDetectorDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "arLiveness",
+            "printedName": "arLiveness(liveness:startLivenessAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARLivenessDetector",
+                "printedName": "IDCardReader.ARLivenessDetector",
+                "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessAction",
+                "printedName": "IDCardReader.LivenessAction",
+                "usr": "s:12IDCardReader14LivenessActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP10arLiveness8liveness05startG6ActionyAA0cD0C_AA0gJ0OtF",
+            "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP10arLiveness8liveness05startG6ActionyAA0cD0C_AA0gJ0OtF",
+            "moduleName": "IDCardReader",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDCardReader.ARLivenessDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : IDCardReader.ARLivenessDetectorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arLiveness",
+            "printedName": "arLiveness(liveness:didFail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARLivenessDetector",
+                "printedName": "IDCardReader.ARLivenessDetector",
+                "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessError",
+                "printedName": "IDCardReader.LivenessError",
+                "usr": "s:12IDCardReader13LivenessErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP10arLiveness8liveness7didFailyAA0cD0C_AA0G5ErrorOtF",
+            "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP10arLiveness8liveness7didFailyAA0cD0C_AA0G5ErrorOtF",
+            "moduleName": "IDCardReader",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDCardReader.ARLivenessDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : IDCardReader.ARLivenessDetectorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arliveness",
+            "printedName": "arliveness(liveness:didFinish:base64Images:videoPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARLivenessDetector",
+                "printedName": "IDCardReader.ARLivenessDetector",
+                "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceValidationResponse",
+                "printedName": "IDCardReader.FaceValidationResponse",
+                "usr": "s:12IDCardReader22FaceValidationResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP10arliveness8liveness9didFinish12base64Images9videoPathyAA0cD0C_AA22FaceValidationResponseVSaySSGSSSgtF",
+            "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP10arliveness8liveness9didFinish12base64Images9videoPathyAA0cD0C_AA22FaceValidationResponseVSaySSGSSSgtF",
+            "moduleName": "IDCardReader",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDCardReader.ARLivenessDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : IDCardReader.ARLivenessDetectorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP",
+        "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP",
+        "moduleName": "IDCardReader",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ARLivenessDetector",
+        "printedName": "ARLivenessDetector",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getVerificationRequiresAndStartSession",
+            "printedName": "getVerificationRequiresAndStartSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader18ARLivenessDetectorC38getVerificationRequiresAndStartSessionyyF",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC38getVerificationRequiresAndStartSessionyyF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLiveness",
+            "printedName": "startLiveness(verificationData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.ConfigData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigData",
+                    "printedName": "IDCardReader.ConfigData",
+                    "usr": "s:12IDCardReader10ConfigDataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader18ARLivenessDetectorC13startLiveness16verificationDatayAA06ConfigH0VSg_tF",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC13startLiveness16verificationDatayAA06ConfigH0VSg_tF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopLiveness",
+            "printedName": "stopLiveness()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader18ARLivenessDetectorC12stopLivenessyyF",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC12stopLivenessyyF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ARLivenessDetector",
+                "printedName": "IDCardReader.ARLivenessDetector",
+                "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector(im)init",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorCACycfc",
+            "moduleName": "IDCardReader",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "session",
+            "printedName": "session(_:didUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ARKit.ARAnchor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARAnchor",
+                    "printedName": "ARKit.ARAnchor",
+                    "usr": "c:objc(cs)ARAnchor"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDCardReader@objc(cs)ARLivenessDetector(im)session:didUpdateAnchors:",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC7session_9didUpdateySo9ARSessionC_SaySo8ARAnchorCGtF",
+            "moduleName": "IDCardReader",
+            "objc_name": "session:didUpdateAnchors:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didAdd:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDCardReader@objc(cs)ARLivenessDetector(im)renderer:didAddNode:forAnchor:",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC8renderer_6didAdd3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "IDCardReader",
+            "objc_name": "renderer:didAddNode:forAnchor:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didUpdate:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDCardReader@objc(cs)ARLivenessDetector(im)renderer:didUpdateNode:forAnchor:",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC8renderer_9didUpdate3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "IDCardReader",
+            "objc_name": "renderer:didUpdateNode:forAnchor:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector",
+        "mangledName": "$s12IDCardReader18ARLivenessDetectorC",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -24726,6 +25903,426 @@
       "offset": 393,
       "length": 3,
       "value": "0x3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 423,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 10,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 501,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 17,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 11,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 423,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 10,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 501,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 17,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 11,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 423,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 10,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 501,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 17,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 11,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "Dictionary",
+      "offset": 1173,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1353,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1425,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1465,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1501,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1544,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1581,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1625,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1659,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1700,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1736,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1779,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1828,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1881,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "Array",
+      "offset": 2002,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2033,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2130,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 9358,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 10701,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 958,
+      "length": 18,
+      "value": "\"IDCardReader.ARLivenessDetector\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
