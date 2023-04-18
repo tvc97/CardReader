@@ -777,7 +777,16 @@ public class NotImplementedDG : IDCardReader.DataGroup {
   public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
+  public func getFaceConfig() async throws -> IDCardReader.ConfignResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
   public func validateFace(scannedFace: Swift.String, liveFace: Swift.String) async throws -> IDCardReader.FaceValidationResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func validateFaceWithCard(liveFace: Swift.String, image_live1: Swift.String = "", image_live2: Swift.String = "", image_live3: Swift.String = "") async throws -> IDCardReader.FaceValidationResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func validateFaceWithCardId(card_id: Swift.String, liveFace: Swift.String, request_id: Swift.String = "", image_live1: Swift.String = "", image_live2: Swift.String = "", image_live3: Swift.String = "") async throws -> IDCardReader.FaceValidationResponse
   #endif
   @objc override dynamic public init()
   @objc deinit
@@ -853,6 +862,25 @@ public struct FaceValidationResponse : ObjectMapper.Mappable {
   public var requestId: Swift.String
   public var resultCode: Swift.Int
   public var resultMesssage: Swift.String
+  public var success: Swift.Bool
+  public init?(map: ObjectMapper.Map)
+  public mutating func mapping(map: ObjectMapper.Map)
+}
+public struct ConfignResponse : ObjectMapper.Mappable {
+  public var status: Swift.Int
+  public var message: Swift.String
+  public var data: IDCardReader.ConfigData?
+  public init?(map: ObjectMapper.Map)
+  public mutating func mapping(map: ObjectMapper.Map)
+}
+public struct ConfigData : ObjectMapper.Mappable {
+  public var isActiveTurnRight: Swift.Bool
+  public var isActiveTurnLeft: Swift.Bool
+  public var isActiveFaceUp: Swift.Bool
+  public var isActiveFaceDown: Swift.Bool
+  public var isActiveSmile: Swift.Bool
+  public var isActiveWink: Swift.Bool
+  public var data: IDCardReader.IDCardInformation?
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }

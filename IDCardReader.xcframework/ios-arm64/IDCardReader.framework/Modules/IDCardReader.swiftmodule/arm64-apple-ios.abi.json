@@ -17968,6 +17968,28 @@
           },
           {
             "kind": "Function",
+            "name": "getFaceConfig",
+            "printedName": "getFaceConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConfignResponse",
+                "printedName": "IDCardReader.ConfignResponse",
+                "usr": "s:12IDCardReader15ConfignResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader0aB7ManagerC13getFaceConfigAA15ConfignResponseVyYaKF",
+            "mangledName": "$s12IDCardReader0aB7ManagerC13getFaceConfigAA15ConfignResponseVyYaKF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "validateFace",
             "printedName": "validateFace(scannedFace:liveFace:)",
             "children": [
@@ -17993,6 +18015,117 @@
             "declKind": "Func",
             "usr": "s:12IDCardReader0aB7ManagerC12validateFace07scannedE004liveE0AA0E18ValidationResponseVSS_SStYaKF",
             "mangledName": "$s12IDCardReader0aB7ManagerC12validateFace07scannedE004liveE0AA0E18ValidationResponseVSS_SStYaKF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateFaceWithCard",
+            "printedName": "validateFaceWithCard(liveFace:image_live1:image_live2:image_live3:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceValidationResponse",
+                "printedName": "IDCardReader.FaceValidationResponse",
+                "usr": "s:12IDCardReader22FaceValidationResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader0aB7ManagerC20validateFaceWithCard04liveE011image_live10I6_live20I6_live3AA0E18ValidationResponseVSS_S3StYaKF",
+            "mangledName": "$s12IDCardReader0aB7ManagerC20validateFaceWithCard04liveE011image_live10I6_live20I6_live3AA0E18ValidationResponseVSS_S3StYaKF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateFaceWithCardId",
+            "printedName": "validateFaceWithCardId(card_id:liveFace:request_id:image_live1:image_live2:image_live3:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceValidationResponse",
+                "printedName": "IDCardReader.FaceValidationResponse",
+                "usr": "s:12IDCardReader22FaceValidationResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader0aB7ManagerC22validateFaceWithCardId7card_id04liveE008request_J011image_live10M6_live20M6_live3AA0E18ValidationResponseVSS_S5StYaKF",
+            "mangledName": "$s12IDCardReader0aB7ManagerC22validateFaceWithCardId7card_id04liveE008request_J011image_live10M6_live20M6_live3AA0E18ValidationResponseVSS_S5StYaKF",
             "moduleName": "IDCardReader",
             "declAttributes": [
               "AccessControl"
@@ -22072,6 +22205,92 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader22FaceValidationResponseV7successSbvp",
+            "mangledName": "$s12IDCardReader22FaceValidationResponseV7successSbvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader22FaceValidationResponseV7successSbvg",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV7successSbvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader22FaceValidationResponseV7successSbvs",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV7successSbvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader22FaceValidationResponseV7successSbvM",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV7successSbvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(map:)",
@@ -22141,6 +22360,1098 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Mappable",
+            "printedName": "Mappable",
+            "usr": "s:12ObjectMapper8MappableP",
+            "mangledName": "$s12ObjectMapper8MappableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseMappable",
+            "printedName": "BaseMappable",
+            "usr": "s:12ObjectMapper12BaseMappableP",
+            "mangledName": "$s12ObjectMapper12BaseMappableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfignResponse",
+        "printedName": "ConfignResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader15ConfignResponseV6statusSivp",
+            "mangledName": "$s12IDCardReader15ConfignResponseV6statusSivp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV6statusSivg",
+                "mangledName": "$s12IDCardReader15ConfignResponseV6statusSivg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV6statusSivs",
+                "mangledName": "$s12IDCardReader15ConfignResponseV6statusSivs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV6statusSivM",
+                "mangledName": "$s12IDCardReader15ConfignResponseV6statusSivM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader15ConfignResponseV7messageSSvp",
+            "mangledName": "$s12IDCardReader15ConfignResponseV7messageSSvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV7messageSSvg",
+                "mangledName": "$s12IDCardReader15ConfignResponseV7messageSSvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV7messageSSvs",
+                "mangledName": "$s12IDCardReader15ConfignResponseV7messageSSvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV7messageSSvM",
+                "mangledName": "$s12IDCardReader15ConfignResponseV7messageSSvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.ConfigData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigData",
+                    "printedName": "IDCardReader.ConfigData",
+                    "usr": "s:12IDCardReader10ConfigDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader15ConfignResponseV4dataAA10ConfigDataVSgvp",
+            "mangledName": "$s12IDCardReader15ConfignResponseV4dataAA10ConfigDataVSgvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDCardReader.ConfigData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConfigData",
+                        "printedName": "IDCardReader.ConfigData",
+                        "usr": "s:12IDCardReader10ConfigDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV4dataAA10ConfigDataVSgvg",
+                "mangledName": "$s12IDCardReader15ConfignResponseV4dataAA10ConfigDataVSgvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDCardReader.ConfigData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConfigData",
+                        "printedName": "IDCardReader.ConfigData",
+                        "usr": "s:12IDCardReader10ConfigDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV4dataAA10ConfigDataVSgvs",
+                "mangledName": "$s12IDCardReader15ConfignResponseV4dataAA10ConfigDataVSgvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader15ConfignResponseV4dataAA10ConfigDataVSgvM",
+                "mangledName": "$s12IDCardReader15ConfignResponseV4dataAA10ConfigDataVSgvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.ConfignResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfignResponse",
+                    "printedName": "IDCardReader.ConfignResponse",
+                    "usr": "s:12IDCardReader15ConfignResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Map",
+                "printedName": "ObjectMapper.Map",
+                "usr": "s:12ObjectMapper3MapC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IDCardReader15ConfignResponseV3mapACSg12ObjectMapper3MapC_tcfc",
+            "mangledName": "$s12IDCardReader15ConfignResponseV3mapACSg12ObjectMapper3MapC_tcfc",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "mapping",
+            "printedName": "mapping(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Map",
+                "printedName": "ObjectMapper.Map",
+                "usr": "s:12ObjectMapper3MapC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader15ConfignResponseV7mapping3mapy12ObjectMapper3MapC_tF",
+            "mangledName": "$s12IDCardReader15ConfignResponseV7mapping3mapy12ObjectMapper3MapC_tF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "Mutating",
+              "AccessControl"
+            ],
+            "funcSelfKind": "Mutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12IDCardReader15ConfignResponseV",
+        "mangledName": "$s12IDCardReader15ConfignResponseV",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Mappable",
+            "printedName": "Mappable",
+            "usr": "s:12ObjectMapper8MappableP",
+            "mangledName": "$s12ObjectMapper8MappableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseMappable",
+            "printedName": "BaseMappable",
+            "usr": "s:12ObjectMapper12BaseMappableP",
+            "mangledName": "$s12ObjectMapper12BaseMappableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigData",
+        "printedName": "ConfigData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isActiveTurnRight",
+            "printedName": "isActiveTurnRight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader10ConfigDataV17isActiveTurnRightSbvp",
+            "mangledName": "$s12IDCardReader10ConfigDataV17isActiveTurnRightSbvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV17isActiveTurnRightSbvg",
+                "mangledName": "$s12IDCardReader10ConfigDataV17isActiveTurnRightSbvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV17isActiveTurnRightSbvs",
+                "mangledName": "$s12IDCardReader10ConfigDataV17isActiveTurnRightSbvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV17isActiveTurnRightSbvM",
+                "mangledName": "$s12IDCardReader10ConfigDataV17isActiveTurnRightSbvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isActiveTurnLeft",
+            "printedName": "isActiveTurnLeft",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader10ConfigDataV16isActiveTurnLeftSbvp",
+            "mangledName": "$s12IDCardReader10ConfigDataV16isActiveTurnLeftSbvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV16isActiveTurnLeftSbvg",
+                "mangledName": "$s12IDCardReader10ConfigDataV16isActiveTurnLeftSbvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV16isActiveTurnLeftSbvs",
+                "mangledName": "$s12IDCardReader10ConfigDataV16isActiveTurnLeftSbvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV16isActiveTurnLeftSbvM",
+                "mangledName": "$s12IDCardReader10ConfigDataV16isActiveTurnLeftSbvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isActiveFaceUp",
+            "printedName": "isActiveFaceUp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader10ConfigDataV14isActiveFaceUpSbvp",
+            "mangledName": "$s12IDCardReader10ConfigDataV14isActiveFaceUpSbvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV14isActiveFaceUpSbvg",
+                "mangledName": "$s12IDCardReader10ConfigDataV14isActiveFaceUpSbvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV14isActiveFaceUpSbvs",
+                "mangledName": "$s12IDCardReader10ConfigDataV14isActiveFaceUpSbvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV14isActiveFaceUpSbvM",
+                "mangledName": "$s12IDCardReader10ConfigDataV14isActiveFaceUpSbvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isActiveFaceDown",
+            "printedName": "isActiveFaceDown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader10ConfigDataV16isActiveFaceDownSbvp",
+            "mangledName": "$s12IDCardReader10ConfigDataV16isActiveFaceDownSbvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV16isActiveFaceDownSbvg",
+                "mangledName": "$s12IDCardReader10ConfigDataV16isActiveFaceDownSbvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV16isActiveFaceDownSbvs",
+                "mangledName": "$s12IDCardReader10ConfigDataV16isActiveFaceDownSbvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV16isActiveFaceDownSbvM",
+                "mangledName": "$s12IDCardReader10ConfigDataV16isActiveFaceDownSbvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isActiveSmile",
+            "printedName": "isActiveSmile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader10ConfigDataV13isActiveSmileSbvp",
+            "mangledName": "$s12IDCardReader10ConfigDataV13isActiveSmileSbvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV13isActiveSmileSbvg",
+                "mangledName": "$s12IDCardReader10ConfigDataV13isActiveSmileSbvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV13isActiveSmileSbvs",
+                "mangledName": "$s12IDCardReader10ConfigDataV13isActiveSmileSbvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV13isActiveSmileSbvM",
+                "mangledName": "$s12IDCardReader10ConfigDataV13isActiveSmileSbvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isActiveWink",
+            "printedName": "isActiveWink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader10ConfigDataV12isActiveWinkSbvp",
+            "mangledName": "$s12IDCardReader10ConfigDataV12isActiveWinkSbvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV12isActiveWinkSbvg",
+                "mangledName": "$s12IDCardReader10ConfigDataV12isActiveWinkSbvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV12isActiveWinkSbvs",
+                "mangledName": "$s12IDCardReader10ConfigDataV12isActiveWinkSbvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV12isActiveWinkSbvM",
+                "mangledName": "$s12IDCardReader10ConfigDataV12isActiveWinkSbvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.IDCardInformation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDCardInformation",
+                    "printedName": "IDCardReader.IDCardInformation",
+                    "usr": "s:12IDCardReader0A11InformationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader10ConfigDataV4dataAA0A11InformationVSgvp",
+            "mangledName": "$s12IDCardReader10ConfigDataV4dataAA0A11InformationVSgvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDCardReader.IDCardInformation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDCardInformation",
+                        "printedName": "IDCardReader.IDCardInformation",
+                        "usr": "s:12IDCardReader0A11InformationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV4dataAA0A11InformationVSgvg",
+                "mangledName": "$s12IDCardReader10ConfigDataV4dataAA0A11InformationVSgvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDCardReader.IDCardInformation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDCardInformation",
+                        "printedName": "IDCardReader.IDCardInformation",
+                        "usr": "s:12IDCardReader0A11InformationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV4dataAA0A11InformationVSgvs",
+                "mangledName": "$s12IDCardReader10ConfigDataV4dataAA0A11InformationVSgvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader10ConfigDataV4dataAA0A11InformationVSgvM",
+                "mangledName": "$s12IDCardReader10ConfigDataV4dataAA0A11InformationVSgvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.ConfigData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigData",
+                    "printedName": "IDCardReader.ConfigData",
+                    "usr": "s:12IDCardReader10ConfigDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Map",
+                "printedName": "ObjectMapper.Map",
+                "usr": "s:12ObjectMapper3MapC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IDCardReader10ConfigDataV3mapACSg12ObjectMapper3MapC_tcfc",
+            "mangledName": "$s12IDCardReader10ConfigDataV3mapACSg12ObjectMapper3MapC_tcfc",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "mapping",
+            "printedName": "mapping(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Map",
+                "printedName": "ObjectMapper.Map",
+                "usr": "s:12ObjectMapper3MapC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader10ConfigDataV7mapping3mapy12ObjectMapper3MapC_tF",
+            "mangledName": "$s12IDCardReader10ConfigDataV7mapping3mapy12ObjectMapper3MapC_tF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "Mutating",
+              "AccessControl"
+            ],
+            "funcSelfKind": "Mutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12IDCardReader10ConfigDataV",
+        "mangledName": "$s12IDCardReader10ConfigDataV",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -24238,35 +25549,112 @@
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 498,
+      "length": 23,
+      "value": "\"\/eid\/v1\/verify-config\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 27,
+      "value": "\"\/faceid\/v1\/verifyByCardId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
       "length": 19,
       "value": "\"\/eid\/v1\/signature\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 765,
+      "offset": 911,
       "length": 12,
       "value": "\"masterList\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 794,
+      "offset": 940,
       "length": 6,
       "value": "\".pem\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 1104,
       "length": 10,
       "value": "\"com.pvcb\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 1003,
+      "offset": 1149,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1491,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8766,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8791,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 8815,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 10420,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 10445,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 10470,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 10494,
       "length": 2,
       "value": "\"\""
     },
@@ -24598,6 +25986,69 @@
       "offset": 4052,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4086,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4601,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 4648,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5022,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5068,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5112,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5158,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5201,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5243,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
