@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDCardReader
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
@@ -656,7 +656,7 @@ public class NFCPassportModel {
   public var activeAuthenticationSignature: [Swift.UInt8] {
     get
   }
-  public var verificationErrors: [Swift.Error] {
+  public var verificationErrors: [any Swift.Error] {
     get
   }
   public var isPACESupported: Swift.Bool {
@@ -777,7 +777,16 @@ public class NotImplementedDG : IDCardReader.DataGroup {
   public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
+  public func getFaceConfig() async throws -> IDCardReader.ConfignResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
   public func validateFace(scannedFace: Swift.String, liveFace: Swift.String) async throws -> IDCardReader.FaceValidationResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func validateFaceWithCard(liveFace: Swift.String, image_live1: Swift.String = "", image_live2: Swift.String = "", image_live3: Swift.String = "") async throws -> IDCardReader.FaceValidationResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func validateFaceWithCardId(card_id: Swift.String, liveFace: Swift.String, request_id: Swift.String = "", image_live1: Swift.String = "", image_live2: Swift.String = "", image_live3: Swift.String = "") async throws -> IDCardReader.FaceValidationResponse
   #endif
   @objc override dynamic public init()
   @objc deinit
@@ -796,7 +805,7 @@ public class PassportReader : ObjectiveC.NSObject {
 @available(iOS 13, *)
 extension IDCardReader.PassportReader : CoreNFC.NFCTagReaderSessionDelegate {
   public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
-  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: Swift.Error)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: any Swift.Error)
   public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
 }
 public struct IDCardRawData {
@@ -836,6 +845,7 @@ public struct IDCardInformation : ObjectMapper.Mappable {
 public struct IDCardValidationResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
   public var message: Swift.String
+  public var data: IDCardReader.IDCardValidationData?
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
@@ -853,6 +863,25 @@ public struct FaceValidationResponse : ObjectMapper.Mappable {
   public var requestId: Swift.String
   public var resultCode: Swift.Int
   public var resultMesssage: Swift.String
+  public var success: Swift.Bool
+  public init?(map: ObjectMapper.Map)
+  public mutating func mapping(map: ObjectMapper.Map)
+}
+public struct ConfignResponse : ObjectMapper.Mappable {
+  public var status: Swift.Int
+  public var message: Swift.String
+  public var data: IDCardReader.ConfigData?
+  public init?(map: ObjectMapper.Map)
+  public mutating func mapping(map: ObjectMapper.Map)
+}
+public struct ConfigData : ObjectMapper.Mappable {
+  public var isActiveTurnRight: Swift.Bool
+  public var isActiveTurnLeft: Swift.Bool
+  public var isActiveFaceUp: Swift.Bool
+  public var isActiveFaceDown: Swift.Bool
+  public var isActiveSmile: Swift.Bool
+  public var isActiveWink: Swift.Bool
+  public var data: IDCardReader.IDCardInformation?
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
