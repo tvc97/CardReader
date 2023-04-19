@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDCardReader
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import ARKit
@@ -431,7 +431,7 @@ public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
   func arliveness(liveness: IDCardReader.ARLivenessDetector, didFinish verification: IDCardReader.FaceValidationResponse, base64Images: [Swift.String], videoPath: Swift.String?)
 }
 @objc public class ARLivenessDetector : ObjectiveC.NSObject {
-  weak public var delegate: IDCardReader.ARLivenessDetectorDelegate?
+  weak public var delegate: (any IDCardReader.ARLivenessDetectorDelegate)?
   public init(previewView: UIKit.UIView, debugging: Swift.Bool = true)
   public func getVerificationRequiresAndStartSession()
   public func startLiveness(verificationData: IDCardReader.ConfigData? = nil)
@@ -442,8 +442,8 @@ extension IDCardReader.ARLivenessDetector : ARKit.ARSessionDelegate {
   @objc dynamic public func session(_ session: ARKit.ARSession, didUpdate anchors: [ARKit.ARAnchor])
 }
 extension IDCardReader.ARLivenessDetector : ARKit.ARSCNViewDelegate {
-  @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
-  @objc dynamic public func renderer(_ renderer: SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class SecurityInfo {
@@ -704,7 +704,7 @@ public class NFCPassportModel {
   public var activeAuthenticationSignature: [Swift.UInt8] {
     get
   }
-  public var verificationErrors: [Swift.Error] {
+  public var verificationErrors: [any Swift.Error] {
     get
   }
   public var isPACESupported: Swift.Bool {
@@ -822,19 +822,7 @@ public class NotImplementedDG : IDCardReader.DataGroup {
   public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getFaceConfig() async throws -> IDCardReader.ConfignResponse
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func validateFace(scannedFace: Swift.String, liveFace: Swift.String) async throws -> IDCardReader.FaceValidationResponse
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func validateFaceWithCard(liveFace: Swift.String, image_live1: Swift.String = "", image_live2: Swift.String = "", image_live3: Swift.String = "") async throws -> IDCardReader.FaceValidationResponse
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func validateFaceWithCardId(card_id: Swift.String, liveFace: Swift.String, request_id: Swift.String = "", image_live1: Swift.String = "", image_live2: Swift.String = "", image_live3: Swift.String = "") async throws -> IDCardReader.FaceValidationResponse
   #endif
   @objc override dynamic public init()
   @objc deinit
@@ -853,7 +841,7 @@ public class PassportReader : ObjectiveC.NSObject {
 @available(iOS 13, *)
 extension IDCardReader.PassportReader : CoreNFC.NFCTagReaderSessionDelegate {
   public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
-  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: Swift.Error)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: any Swift.Error)
   public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
 }
 public struct IDCardRawData {
@@ -893,6 +881,7 @@ public struct IDCardInformation : ObjectMapper.Mappable {
 public struct IDCardValidationResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
   public var message: Swift.String
+  public var data: IDCardReader.IDCardValidationData?
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
