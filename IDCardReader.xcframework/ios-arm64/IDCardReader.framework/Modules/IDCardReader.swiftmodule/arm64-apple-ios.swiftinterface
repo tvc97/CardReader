@@ -822,6 +822,9 @@ public class NotImplementedDG : IDCardReader.DataGroup {
   public func readIDCard(cardId: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String) async throws -> IDCardReader.IDCardInformationResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
+  public func validateCard(requestId: Swift.String) async throws -> IDCardReader.IDCardValidationResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
   public func getFaceConfig() async throws -> IDCardReader.ConfignResponse
   #endif
   @objc override dynamic public init()
