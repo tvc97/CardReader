@@ -2,6 +2,8 @@
 // swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDCardReader
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import ARKit
+import ARVideoKit
 import CommonCrypto
 import CoreNFC
 import CryptoKit
@@ -397,6 +399,52 @@ extension IDCardReader.NFCViewDisplayMessage {
     get
   }
 }
+public enum LivenessError : Swift.Error {
+  case noFaceDetected
+  case badImage
+  case noVerificationInstruction
+  public static func == (a: IDCardReader.LivenessError, b: IDCardReader.LivenessError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LivenessAction : Swift.Int {
+  case eyesLookIn
+  case smile
+  case wink
+  case headPoseUp
+  case headPoseDown
+  case headPoseLeft
+  case headPoseRight
+  case startVerification
+  case fetchConfig
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
+  func arLiveness(liveness: IDCardReader.ARLivenessDetector, startLivenessAction action: IDCardReader.LivenessAction)
+  func arLiveness(liveness: IDCardReader.ARLivenessDetector, didFail withError: IDCardReader.LivenessError)
+  func arliveness(liveness: IDCardReader.ARLivenessDetector, didFinish verification: IDCardReader.FaceValidationResponse, base64Images: [Swift.String], videoPath: Swift.String?)
+}
+@objc public class ARLivenessDetector : ObjectiveC.NSObject {
+  weak public var delegate: (any IDCardReader.ARLivenessDetectorDelegate)?
+  public init(previewView: UIKit.UIView, debugging: Swift.Bool = true)
+  public func getVerificationRequiresAndStartSession()
+  public func startLiveness(verificationData: IDCardReader.ConfigData? = nil)
+  public func stopLiveness()
+  @objc deinit
+}
+extension IDCardReader.ARLivenessDetector : ARKit.ARSessionDelegate {
+  @objc dynamic public func session(_ session: ARKit.ARSession, didUpdate anchors: [ARKit.ARAnchor])
+}
+extension IDCardReader.ARLivenessDetector : ARKit.ARSCNViewDelegate {
+  @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+  @objc dynamic public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didUpdate node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
+}
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class SecurityInfo {
   public func getObjectIdentifier() -> Swift.String
@@ -779,15 +827,6 @@ public class NotImplementedDG : IDCardReader.DataGroup {
   #if compiler(>=5.3) && $AsyncAwait
   public func getFaceConfig() async throws -> IDCardReader.ConfignResponse
   #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func validateFace(scannedFace: Swift.String, liveFace: Swift.String) async throws -> IDCardReader.FaceValidationResponse
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func validateFaceWithCard(liveFace: Swift.String, image_live1: Swift.String = "", image_live2: Swift.String = "", image_live3: Swift.String = "") async throws -> IDCardReader.FaceValidationResponse
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func validateFaceWithCardId(card_id: Swift.String, liveFace: Swift.String, request_id: Swift.String = "", image_live1: Swift.String = "", image_live2: Swift.String = "", image_live3: Swift.String = "") async throws -> IDCardReader.FaceValidationResponse
-  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -864,6 +903,7 @@ public struct FaceValidationResponse : ObjectMapper.Mappable {
   public var resultCode: Swift.Int
   public var resultMesssage: Swift.String
   public var success: Swift.Bool
+  public var data: [Swift.String : Swift.String]
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
@@ -912,6 +952,11 @@ extension IDCardReader.DataGroupId : Swift.Equatable {}
 extension IDCardReader.DataGroupId : Swift.Hashable {}
 @available(iOS 13, macOS 10.15, *)
 extension IDCardReader.DataGroupId : Swift.RawRepresentable {}
+extension IDCardReader.LivenessError : Swift.Equatable {}
+extension IDCardReader.LivenessError : Swift.Hashable {}
+extension IDCardReader.LivenessAction : Swift.Equatable {}
+extension IDCardReader.LivenessAction : Swift.Hashable {}
+extension IDCardReader.LivenessAction : Swift.RawRepresentable {}
 extension IDCardReader.PACEMappingType : Swift.Equatable {}
 extension IDCardReader.PACEMappingType : Swift.Hashable {}
 extension IDCardReader.PassportAuthenticationStatus : Swift.Equatable {}

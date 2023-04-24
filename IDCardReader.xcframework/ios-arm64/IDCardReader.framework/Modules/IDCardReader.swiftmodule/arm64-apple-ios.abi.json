@@ -9071,6 +9071,1319 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "IDCardReader"
+      },
+      {
+        "kind": "Import",
+        "name": "ARVideoKit",
+        "printedName": "ARVideoKit",
+        "declKind": "Import",
+        "moduleName": "IDCardReader"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessError",
+        "printedName": "LivenessError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noFaceDetected",
+            "printedName": "noFaceDetected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessError.Type) -> IDCardReader.LivenessError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessError",
+                    "printedName": "IDCardReader.LivenessError",
+                    "usr": "s:12IDCardReader13LivenessErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessError",
+                        "printedName": "IDCardReader.LivenessError",
+                        "usr": "s:12IDCardReader13LivenessErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader13LivenessErrorO14noFaceDetectedyA2CmF",
+            "mangledName": "$s12IDCardReader13LivenessErrorO14noFaceDetectedyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "badImage",
+            "printedName": "badImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessError.Type) -> IDCardReader.LivenessError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessError",
+                    "printedName": "IDCardReader.LivenessError",
+                    "usr": "s:12IDCardReader13LivenessErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessError",
+                        "printedName": "IDCardReader.LivenessError",
+                        "usr": "s:12IDCardReader13LivenessErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader13LivenessErrorO8badImageyA2CmF",
+            "mangledName": "$s12IDCardReader13LivenessErrorO8badImageyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "noVerificationInstruction",
+            "printedName": "noVerificationInstruction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessError.Type) -> IDCardReader.LivenessError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessError",
+                    "printedName": "IDCardReader.LivenessError",
+                    "usr": "s:12IDCardReader13LivenessErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessError",
+                        "printedName": "IDCardReader.LivenessError",
+                        "usr": "s:12IDCardReader13LivenessErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader13LivenessErrorO25noVerificationInstructionyA2CmF",
+            "mangledName": "$s12IDCardReader13LivenessErrorO25noVerificationInstructionyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessError",
+                "printedName": "IDCardReader.LivenessError",
+                "usr": "s:12IDCardReader13LivenessErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessError",
+                "printedName": "IDCardReader.LivenessError",
+                "usr": "s:12IDCardReader13LivenessErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader13LivenessErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12IDCardReader13LivenessErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "IDCardReader",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader13LivenessErrorO9hashValueSivp",
+            "mangledName": "$s12IDCardReader13LivenessErrorO9hashValueSivp",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader13LivenessErrorO9hashValueSivg",
+                "mangledName": "$s12IDCardReader13LivenessErrorO9hashValueSivg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader13LivenessErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12IDCardReader13LivenessErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12IDCardReader13LivenessErrorO",
+        "mangledName": "$s12IDCardReader13LivenessErrorO",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessAction",
+        "printedName": "LivenessAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eyesLookIn",
+            "printedName": "eyesLookIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO10eyesLookInyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO10eyesLookInyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "smile",
+            "printedName": "smile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO5smileyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO5smileyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "wink",
+            "printedName": "wink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO4winkyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO4winkyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "headPoseUp",
+            "printedName": "headPoseUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO10headPoseUpyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO10headPoseUpyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "headPoseDown",
+            "printedName": "headPoseDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO12headPoseDownyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO12headPoseDownyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "headPoseLeft",
+            "printedName": "headPoseLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO12headPoseLeftyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO12headPoseLeftyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "headPoseRight",
+            "printedName": "headPoseRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO13headPoseRightyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO13headPoseRightyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "startVerification",
+            "printedName": "startVerification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO17startVerificationyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO17startVerificationyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Var",
+            "name": "fetchConfig",
+            "printedName": "fetchConfig",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDCardReader.LivenessAction.Type) -> IDCardReader.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDCardReader.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "IDCardReader.LivenessAction",
+                        "usr": "s:12IDCardReader14LivenessActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12IDCardReader14LivenessActionO11fetchConfigyA2CmF",
+            "mangledName": "$s12IDCardReader14LivenessActionO11fetchConfigyA2CmF",
+            "moduleName": "IDCardReader"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.LivenessAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "IDCardReader.LivenessAction",
+                    "usr": "s:12IDCardReader14LivenessActionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IDCardReader14LivenessActionO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12IDCardReader14LivenessActionO8rawValueACSgSi_tcfc",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader14LivenessActionO8rawValueSivp",
+            "mangledName": "$s12IDCardReader14LivenessActionO8rawValueSivp",
+            "moduleName": "IDCardReader",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader14LivenessActionO8rawValueSivg",
+                "mangledName": "$s12IDCardReader14LivenessActionO8rawValueSivg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12IDCardReader14LivenessActionO",
+        "mangledName": "$s12IDCardReader14LivenessActionO",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ARLivenessDetectorDelegate",
+        "printedName": "ARLivenessDetectorDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "arLiveness",
+            "printedName": "arLiveness(liveness:startLivenessAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARLivenessDetector",
+                "printedName": "IDCardReader.ARLivenessDetector",
+                "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessAction",
+                "printedName": "IDCardReader.LivenessAction",
+                "usr": "s:12IDCardReader14LivenessActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP10arLiveness8liveness05startG6ActionyAA0cD0C_AA0gJ0OtF",
+            "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP10arLiveness8liveness05startG6ActionyAA0cD0C_AA0gJ0OtF",
+            "moduleName": "IDCardReader",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDCardReader.ARLivenessDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : IDCardReader.ARLivenessDetectorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arLiveness",
+            "printedName": "arLiveness(liveness:didFail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARLivenessDetector",
+                "printedName": "IDCardReader.ARLivenessDetector",
+                "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessError",
+                "printedName": "IDCardReader.LivenessError",
+                "usr": "s:12IDCardReader13LivenessErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP10arLiveness8liveness7didFailyAA0cD0C_AA0G5ErrorOtF",
+            "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP10arLiveness8liveness7didFailyAA0cD0C_AA0G5ErrorOtF",
+            "moduleName": "IDCardReader",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDCardReader.ARLivenessDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : IDCardReader.ARLivenessDetectorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arliveness",
+            "printedName": "arliveness(liveness:didFinish:base64Images:videoPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARLivenessDetector",
+                "printedName": "IDCardReader.ARLivenessDetector",
+                "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceValidationResponse",
+                "printedName": "IDCardReader.FaceValidationResponse",
+                "usr": "s:12IDCardReader22FaceValidationResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP10arliveness8liveness9didFinish12base64Images9videoPathyAA0cD0C_AA22FaceValidationResponseVSaySSGSSSgtF",
+            "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP10arliveness8liveness9didFinish12base64Images9videoPathyAA0cD0C_AA22FaceValidationResponseVSaySSGSSSgtF",
+            "moduleName": "IDCardReader",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDCardReader.ARLivenessDetectorDelegate>",
+            "sugared_genericSig": "<Self where Self : IDCardReader.ARLivenessDetectorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP",
+        "mangledName": "$s12IDCardReader26ARLivenessDetectorDelegateP",
+        "moduleName": "IDCardReader",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ARLivenessDetector",
+        "printedName": "ARLivenessDetector",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "IDCardReader.ARLivenessDetectorDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader18ARLivenessDetectorC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDCardReader.ARLivenessDetectorDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ARLivenessDetectorDelegate",
+                        "printedName": "IDCardReader.ARLivenessDetectorDelegate",
+                        "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader18ARLivenessDetectorC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s12IDCardReader18ARLivenessDetectorC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDCardReader.ARLivenessDetectorDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ARLivenessDetectorDelegate",
+                        "printedName": "IDCardReader.ARLivenessDetectorDelegate",
+                        "usr": "s:12IDCardReader26ARLivenessDetectorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader18ARLivenessDetectorC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s12IDCardReader18ARLivenessDetectorC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader18ARLivenessDetectorC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s12IDCardReader18ARLivenessDetectorC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(previewView:debugging:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ARLivenessDetector",
+                "printedName": "IDCardReader.ARLivenessDetector",
+                "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IDCardReader18ARLivenessDetectorC11previewView9debuggingACSo6UIViewC_Sbtcfc",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC11previewView9debuggingACSo6UIViewC_Sbtcfc",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getVerificationRequiresAndStartSession",
+            "printedName": "getVerificationRequiresAndStartSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader18ARLivenessDetectorC38getVerificationRequiresAndStartSessionyyF",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC38getVerificationRequiresAndStartSessionyyF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLiveness",
+            "printedName": "startLiveness(verificationData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDCardReader.ConfigData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigData",
+                    "printedName": "IDCardReader.ConfigData",
+                    "usr": "s:12IDCardReader10ConfigDataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader18ARLivenessDetectorC13startLiveness16verificationDatayAA06ConfigH0VSg_tF",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC13startLiveness16verificationDatayAA06ConfigH0VSg_tF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopLiveness",
+            "printedName": "stopLiveness()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IDCardReader18ARLivenessDetectorC12stopLivenessyyF",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC12stopLivenessyyF",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ARLivenessDetector",
+                "printedName": "IDCardReader.ARLivenessDetector",
+                "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector(im)init",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorCACycfc",
+            "moduleName": "IDCardReader",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "session",
+            "printedName": "session(_:didUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARSession",
+                "printedName": "ARKit.ARSession",
+                "usr": "c:objc(cs)ARSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ARKit.ARAnchor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARAnchor",
+                    "printedName": "ARKit.ARAnchor",
+                    "usr": "c:objc(cs)ARAnchor"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDCardReader@objc(cs)ARLivenessDetector(im)session:didUpdateAnchors:",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC7session_9didUpdateySo9ARSessionC_SaySo8ARAnchorCGtF",
+            "moduleName": "IDCardReader",
+            "objc_name": "session:didUpdateAnchors:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didAdd:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDCardReader@objc(cs)ARLivenessDetector(im)renderer:didAddNode:forAnchor:",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC8renderer_6didAdd3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "IDCardReader",
+            "objc_name": "renderer:didAddNode:forAnchor:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didUpdate:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDCardReader@objc(cs)ARLivenessDetector(im)renderer:didUpdateNode:forAnchor:",
+            "mangledName": "$s12IDCardReader18ARLivenessDetectorC8renderer_9didUpdate3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "IDCardReader",
+            "objc_name": "renderer:didUpdateNode:forAnchor:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IDCardReader@objc(cs)ARLivenessDetector",
+        "mangledName": "$s12IDCardReader18ARLivenessDetectorC",
+        "moduleName": "IDCardReader",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -17989,151 +19302,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "validateFace",
-            "printedName": "validateFace(scannedFace:liveFace:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FaceValidationResponse",
-                "printedName": "IDCardReader.FaceValidationResponse",
-                "usr": "s:12IDCardReader22FaceValidationResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12IDCardReader0aB7ManagerC12validateFace07scannedE004liveE0AA0E18ValidationResponseVSS_SStYaKF",
-            "mangledName": "$s12IDCardReader0aB7ManagerC12validateFace07scannedE004liveE0AA0E18ValidationResponseVSS_SStYaKF",
-            "moduleName": "IDCardReader",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "validateFaceWithCard",
-            "printedName": "validateFaceWithCard(liveFace:image_live1:image_live2:image_live3:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FaceValidationResponse",
-                "printedName": "IDCardReader.FaceValidationResponse",
-                "usr": "s:12IDCardReader22FaceValidationResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12IDCardReader0aB7ManagerC20validateFaceWithCard04liveE011image_live10I6_live20I6_live3AA0E18ValidationResponseVSS_S3StYaKF",
-            "mangledName": "$s12IDCardReader0aB7ManagerC20validateFaceWithCard04liveE011image_live10I6_live20I6_live3AA0E18ValidationResponseVSS_S3StYaKF",
-            "moduleName": "IDCardReader",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "validateFaceWithCardId",
-            "printedName": "validateFaceWithCardId(card_id:liveFace:request_id:image_live1:image_live2:image_live3:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FaceValidationResponse",
-                "printedName": "IDCardReader.FaceValidationResponse",
-                "usr": "s:12IDCardReader22FaceValidationResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12IDCardReader0aB7ManagerC22validateFaceWithCardId7card_id04liveE008request_J011image_live10M6_live20M6_live3AA0E18ValidationResponseVSS_S5StYaKF",
-            "mangledName": "$s12IDCardReader0aB7ManagerC22validateFaceWithCardId7card_id04liveE008request_J011image_live10M6_live20M6_live3AA0E18ValidationResponseVSS_S5StYaKF",
-            "moduleName": "IDCardReader",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -22393,6 +23561,134 @@
                 "declKind": "Accessor",
                 "usr": "s:12IDCardReader22FaceValidationResponseV7successSbvM",
                 "mangledName": "$s12IDCardReader22FaceValidationResponseV7successSbvM",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDyS2SGvp",
+            "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDyS2SGvp",
+            "moduleName": "IDCardReader",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDyS2SGvg",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDyS2SGvg",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDyS2SGvs",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDyS2SGvs",
+                "moduleName": "IDCardReader",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IDCardReader22FaceValidationResponseV4dataSDyS2SGvM",
+                "mangledName": "$s12IDCardReader22FaceValidationResponseV4dataSDyS2SGvM",
                 "moduleName": "IDCardReader",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -32803,6 +34099,993 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 423,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 10,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 501,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 17,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 11,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 423,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 10,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 501,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 17,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 11,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 423,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 10,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 12,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 501,
+      "length": 13,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 17,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 551,
+      "length": 11,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "Dictionary",
+      "offset": 1180,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1360,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1399,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1432,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1472,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1508,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1551,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1588,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1632,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1666,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1707,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1743,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1786,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1835,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1888,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "Array",
+      "offset": 2009,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2040,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2144,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2803,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2986,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4291,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 4492,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4514,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4579,
+      "length": 9,
+      "value": "\"blinked\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4637,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4740,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4930,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 5123,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5146,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 5211,
+      "length": 9,
+      "value": "\"Smiling\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5270,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5375,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5623,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5720,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 5785,
+      "length": 11,
+      "value": "\"turned up\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5913,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5954,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6107,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6208,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6273,
+      "length": 13,
+      "value": "\"turned down\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6407,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6450,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6603,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6704,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6769,
+      "length": 13,
+      "value": "\"turned left\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6946,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7101,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7204,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 7269,
+      "length": 14,
+      "value": "\"turned right\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7406,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7450,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 7920,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8405,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8450,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8495,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8540,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8585,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 9372,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9609,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9633,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9708,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9757,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10029,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10052,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10187,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10210,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 10715,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 10898,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 10923,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 11291,
+      "length": 16,
+      "value": "\"Looking center\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11328,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11412,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11594,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11958,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12009,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12050,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12124,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12168,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12387,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 12457,
+      "length": 19,
+      "value": "\"Took a screenshot\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 958,
+      "length": 18,
+      "value": "\"IDCardReader.ARLivenessDetector\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 13361,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 13537,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 14112,
+      "length": 18,
+      "value": "\"wireframeTexture\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14198,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 16285,
+      "length": 18,
+      "value": "\"wireframeTexture\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17536,
+      "length": 3,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17605,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17672,
+      "length": 3,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17739,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17966,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18061,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18084,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18118,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18158,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18198,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 18373,
+      "length": 4,
+      "value": "1e-6"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/ARLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18622,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Thirparty\/NFCPassportReader\/DataGroups\/SecurityInfo.swift",
       "kind": "StringLiteral",
       "offset": 250,
@@ -37327,518 +39610,525 @@
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 7640,
+      "offset": 7633,
       "length": 12,
       "value": "\"image_card\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 7667,
+      "offset": 7660,
       "length": 12,
       "value": "\"image_live\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 7835,
+      "offset": 7828,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 7867,
+      "offset": 7860,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 7907,
+      "offset": 7900,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 7975,
+      "offset": 7968,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8009,
+      "offset": 8002,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8036,
+      "offset": 8029,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8244,
+      "offset": 8237,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8303,
+      "offset": 8296,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8414,
+      "offset": 8407,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8483,
+      "offset": 8476,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 8678,
+      "offset": 8671,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8766,
+      "offset": 8752,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8791,
+      "offset": 8777,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8815,
+      "offset": 8801,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8885,
+      "offset": 8871,
       "length": 9,
       "value": "\"card_id\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8910,
+      "offset": 8896,
       "length": 12,
       "value": "\"image_live\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8960,
+      "offset": 8946,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 8986,
+      "offset": 8972,
       "length": 13,
       "value": "\"image_live1\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9051,
+      "offset": 9037,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9077,
+      "offset": 9063,
       "length": 13,
       "value": "\"image_live2\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9142,
+      "offset": 9128,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9168,
+      "offset": 9154,
       "length": 13,
       "value": "\"image_live3\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9357,
+      "offset": 9343,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9389,
+      "offset": 9375,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9429,
+      "offset": 9415,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9497,
+      "offset": 9483,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9531,
+      "offset": 9517,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9558,
+      "offset": 9544,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9597,
+      "offset": 9583,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9662,
+      "offset": 9648,
       "length": 12,
       "value": "\"readCardId\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9880,
+      "offset": 9866,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 9939,
+      "offset": 9925,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10050,
+      "offset": 10036,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10119,
+      "offset": 10105,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 10314,
+      "offset": 10300,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10420,
+      "offset": 10400,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10445,
+      "offset": 10425,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10470,
+      "offset": 10450,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10494,
+      "offset": 10474,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 10544,
+      "length": 9,
+      "value": "\"card_id\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
       "offset": 10564,
-      "length": 9,
-      "value": "\"card_id\""
-    },
-    {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 10584,
       "length": 12,
       "value": "\"image_live\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10634,
+      "offset": 10614,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10660,
+      "offset": 10640,
       "length": 13,
       "value": "\"image_live1\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10725,
+      "offset": 10705,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10751,
+      "offset": 10731,
       "length": 13,
       "value": "\"image_live2\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10816,
+      "offset": 10796,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 10842,
+      "offset": 10822,
       "length": 13,
       "value": "\"image_live3\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11025,
+      "offset": 11005,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11057,
+      "offset": 11037,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11097,
+      "offset": 11077,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11165,
+      "offset": 11145,
       "length": 7,
       "value": "\"appid\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11199,
+      "offset": 11179,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11226,
+      "offset": 11206,
       "length": 12,
       "value": "\"devicetype\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11265,
+      "offset": 11245,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11330,
+      "offset": 11310,
       "length": 12,
       "value": "\"readCardId\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11548,
+      "offset": 11528,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11607,
+      "offset": 11587,
       "length": 11,
       "value": "\"signature\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11718,
+      "offset": 11698,
       "length": 70,
       "value": "\"Response \""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 11787,
+      "offset": 11767,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 11982,
+      "offset": 11962,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12500,
+      "offset": 12480,
       "length": 22,
       "value": "\"License is not valid\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 12863,
+      "offset": 12843,
       "length": 27,
       "value": "\"Error loading private key\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 13035,
+      "offset": 13015,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 13519,
+      "offset": 13499,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 13979,
+      "offset": 13959,
       "length": 34,
       "value": "\"Signature: \""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14012,
+      "offset": 13992,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 14284,
+      "offset": 14264,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 14335,
+      "offset": 14315,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 14387,
+      "offset": 14367,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14610,
+      "offset": 14590,
       "length": 80,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14619,
+      "offset": 14599,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14638,
+      "offset": 14618,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
+      "kind": "StringLiteral",
+      "offset": 14624,
       "length": 1,
       "value": "\"\""
     },
@@ -37852,98 +40142,91 @@
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14664,
+      "offset": 14650,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14670,
+      "offset": 14669,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 14689,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
-      "kind": "StringLiteral",
-      "offset": 14910,
+      "offset": 14890,
       "length": 3,
       "value": "\"<\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Dictionary",
-      "offset": 15088,
+      "offset": 15068,
       "length": 443,
       "value": "[(\"0\", \"0\"), (\"1\", \"1\"), (\"2\", \"2\"), (\"3\", \"3\"), (\"4\", \"4\"), (\"5\", \"5\"), (\"6\", \"6\"), (\"7\", \"7\"), (\"8\", \"8\"), (\"9\", \"9\"), (\"<\", \"0\"), (\" \", \"0\"), (\"A\", \"10\"), (\"B\", \"11\"), (\"C\", \"12\"), (\"D\", \"13\"), (\"E\", \"14\"), (\"F\", \"15\"), (\"G\", \"16\"), (\"H\", \"17\"), (\"I\", \"18\"), (\"J\", \"19\"), (\"K\", \"20\"), (\"L\", \"21\"), (\"M\", \"22\"), (\"N\", \"23\"), (\"O\", \"24\"), (\"P\", \"25\"), (\"Q\", \"26\"), (\"R\", \"27\"), (\"S\", \"28\"), (\"T\", \"29\"), (\"U\", \"30\"), (\"V\", \"31\"), (\"W\", \"32\"), (\"X\", \"33\"), (\"Y\", \"34\"), (\"Z\", \"35\")]"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 15559,
+      "offset": 15539,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 15577,
+      "offset": 15557,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "Array",
-      "offset": 15613,
+      "offset": 15593,
       "length": 9,
       "value": "[7, 3, 1]"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 15699,
+      "offset": 15679,
       "length": 6,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "StringLiteral",
-      "offset": 15704,
+      "offset": 15684,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 15765,
+      "offset": 15745,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 15865,
+      "offset": 15845,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 15870,
+      "offset": 15850,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/IDCardReader.swift",
       "kind": "IntegerLiteral",
-      "offset": 15913,
+      "offset": 15893,
       "length": 2,
       "value": "10"
     },
@@ -38936,162 +41219,176 @@
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "Dictionary",
+      "offset": 4126,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4244,
+      "offset": 4281,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4285,
+      "offset": 4322,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4336,
+      "offset": 4373,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4390,
+      "offset": 4427,
       "length": 18,
       "value": "\"data.result_code\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4441,
+      "offset": 4478,
       "length": 25,
       "value": "\"data.verify_result_text\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4499,
+      "offset": 4536,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 4578,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "IntegerLiteral",
-      "offset": 4605,
+      "offset": 4681,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4652,
+      "offset": 4728,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4849,
+      "offset": 4925,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4890,
+      "offset": 4966,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 4932,
+      "offset": 5008,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5026,
+      "offset": 5102,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5072,
+      "offset": 5148,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5116,
+      "offset": 5192,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5162,
+      "offset": 5238,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5205,
+      "offset": 5281,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 5247,
+      "offset": 5323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5463,
+      "offset": 5539,
       "length": 19,
       "value": "\"isActiveTurnRight\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5524,
+      "offset": 5600,
       "length": 18,
       "value": "\"isActiveTurnLeft\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5584,
+      "offset": 5660,
       "length": 16,
       "value": "\"isActiveFaceUp\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5642,
+      "offset": 5718,
       "length": 18,
       "value": "\"isActiveFaceDown\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5702,
+      "offset": 5778,
       "length": 15,
       "value": "\"isActiveSmile\""
     },
     {
       "filePath": "\/Users\/thainguyen\/Documents\/GitHub\/IDCardReader\/IDCardReader\/IDCardReader\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 5759,
+      "offset": 5835,
       "length": 14,
       "value": "\"isActiveWink\""
     }
