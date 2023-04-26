@@ -425,10 +425,12 @@ public enum LivenessAction : Swift.Int {
     get
   }
 }
+public struct ImageAction {
+}
 public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
   func arLiveness(liveness: IDCardReader.ARLivenessDetector, startLivenessAction action: IDCardReader.LivenessAction)
   func arLiveness(liveness: IDCardReader.ARLivenessDetector, didFail withError: IDCardReader.LivenessError)
-  func arliveness(liveness: IDCardReader.ARLivenessDetector, didFinish verification: IDCardReader.FaceValidationResponse, base64Images: [Swift.String], videoPath: Swift.String?)
+  func arliveness(liveness: IDCardReader.ARLivenessDetector, didFinish verification: IDCardReader.FaceValidationResponse, base64Images: [IDCardReader.ImageAction], videoPath: Swift.String?)
 }
 @objc public class ARLivenessDetector : ObjectiveC.NSObject {
   weak public var delegate: (any IDCardReader.ARLivenessDetectorDelegate)?
