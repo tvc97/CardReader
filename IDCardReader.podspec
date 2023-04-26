@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IDCardReader"
-  spec.version      = "1.0.17"
+  spec.version      = "1.0.18"
   spec.summary      = "This package handles reading an NFC Enabled passport using iOS 13 CoreNFC APIS"
 
   spec.homepage     = "https://github.com/trungnguyen1791/CardReader"

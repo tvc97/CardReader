@@ -426,6 +426,8 @@ public enum LivenessAction : Swift.Int {
   }
 }
 public struct ImageAction {
+  public var action: IDCardReader.LivenessAction?
+  public var image: Swift.String?
 }
 public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
   func arLiveness(liveness: IDCardReader.ARLivenessDetector, startLivenessAction action: IDCardReader.LivenessAction)
