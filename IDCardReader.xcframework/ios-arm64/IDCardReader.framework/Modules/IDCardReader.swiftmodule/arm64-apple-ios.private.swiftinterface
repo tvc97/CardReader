@@ -881,7 +881,7 @@ public struct IDCardInformation : ObjectMapper.Mappable {
   public var dateProvide: Swift.String
   public var fatherName: Swift.String
   public var motherName: Swift.String
-  public var wifeName: Swift.String
+  public var partner_name: Swift.String
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
