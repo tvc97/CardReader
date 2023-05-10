@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		H4HfjeEI6bY3ej4eB2Tgf14Yjjk=
+		O57A0LRNArLdVc9bp2ZtBFu4LH4=
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		S2cXDeHFE50zGR+JD5hhtRsPLlM=
+		4TRqUCMmUwBTmvI09hD8JV+UEnY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hn1C5jFBZU+Xk6IF7EuUNAIuF5LfIBZ8yZS+lqXUcQs=
+			hPASkjE0SkSkBPDiLQkXe+i0RYjarWvfGb3uOcGI7kg=
 			</data>
 		</dict>
 		<key>Modules/IDCardReader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iLdUg9Ws+xptb5vWZnH4wS781GSALoeAagZYV/mdS3A=
+			/438tO0SvJrN6LxDzZa2e+gC8kZBGJMRD5sFCrMPqZ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
