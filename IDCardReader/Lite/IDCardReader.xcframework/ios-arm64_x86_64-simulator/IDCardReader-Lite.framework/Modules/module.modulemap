@@ -1,0 +1,4 @@
+framework module IDCardReader_Lite {
+  header "IDCardReader_Lite-Swift.h"
+  requires objc
+}
