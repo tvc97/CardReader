@@ -855,6 +855,8 @@ public struct IDCardRawData {
   public var faceString: Swift.String
   public var documentCertificate: Swift.String
   public var dg13Data: [Swift.UInt8]
+  public var chipAuthStatus: IDCardReader.PassportAuthenticationStatus
+  public var passiveAuthStatus: IDCardReader.PassportAuthenticationStatus
 }
 public struct IDCardInformationResponse : ObjectMapper.Mappable {
   public var status: Swift.Int
