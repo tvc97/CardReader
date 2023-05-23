@@ -812,6 +812,8 @@ public struct IDCardInformationResponse : ObjectMapper.Mappable {
   public var requestId: Swift.String
   public var faceString: Swift.String
   public var data: IDCardReader.IDCardInformation?
+  public var chipAuthStatus: IDCardReader.PassportAuthenticationStatus
+  public var passiveAuthStatus: IDCardReader.PassportAuthenticationStatus
   public init?(map: ObjectMapper.Map)
   public mutating func mapping(map: ObjectMapper.Map)
 }
