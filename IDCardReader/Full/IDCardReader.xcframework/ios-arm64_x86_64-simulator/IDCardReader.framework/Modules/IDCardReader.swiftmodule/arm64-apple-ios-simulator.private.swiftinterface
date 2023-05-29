@@ -403,11 +403,7 @@ public enum LivenessError : Swift.Error {
   case noFaceDetected
   case badImage
   case noVerificationInstruction
-  public static func == (a: IDCardReader.LivenessError, b: IDCardReader.LivenessError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+  case badResponse(Swift.String)
 }
 public enum LivenessAction : Swift.Int {
   case eyesLookIn
@@ -437,7 +433,7 @@ public protocol ARLivenessDetectorDelegate : ObjectiveC.NSObject {
 @objc public class ARLivenessDetector : ObjectiveC.NSObject {
   weak public var delegate: (any IDCardReader.ARLivenessDetectorDelegate)?
   public init(previewView: UIKit.UIView, debugging: Swift.Bool = true)
-  public func getVerificationRequiresAndStartSession()
+  public func getVerificationRequiresAndStartSession() throws
   public func startLiveness(verificationData: IDCardReader.ConfigData? = nil)
   public func stopLiveness()
   @objc deinit
@@ -961,8 +957,6 @@ extension IDCardReader.DataGroupId : Swift.Equatable {}
 extension IDCardReader.DataGroupId : Swift.Hashable {}
 @available(iOS 13, macOS 10.15, *)
 extension IDCardReader.DataGroupId : Swift.RawRepresentable {}
-extension IDCardReader.LivenessError : Swift.Equatable {}
-extension IDCardReader.LivenessError : Swift.Hashable {}
 extension IDCardReader.LivenessAction : Swift.Equatable {}
 extension IDCardReader.LivenessAction : Swift.Hashable {}
 extension IDCardReader.LivenessAction : Swift.RawRepresentable {}
