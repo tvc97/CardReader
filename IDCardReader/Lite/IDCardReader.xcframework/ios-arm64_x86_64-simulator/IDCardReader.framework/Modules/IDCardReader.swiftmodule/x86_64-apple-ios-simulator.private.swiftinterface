@@ -846,7 +846,7 @@ public struct IDCardValidationResponse : ObjectMapper.Mappable {
   public mutating func mapping(map: ObjectMapper.Map)
 }
 public struct IDCardValidationData : ObjectMapper.Mappable {
-  public var exitcode: Swift.Int
+  public var status: Swift.Int
   public var result: Swift.Bool
   public var message: Swift.String
   public var time: Swift.Int
