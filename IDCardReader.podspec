@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'Lite' do |subspec|
     subspec.vendored_frameworks = 'IDCardReader/Lite/IDCardReader.xcframework'
     subspec.dependency "ObjectMapper", '~> 4.2'
-    subspec.dependency "OpenSSL-Universal", '1.1.1900'
+    subspec.dependency "OpenSSL-Universal", '1.1.1100'
   end
 
 
