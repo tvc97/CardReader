@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'Full' do |subspec|
     subspec.vendored_frameworks = 'IDCardReader/Full/IDCardReader.xcframework'
     subspec.dependency "ObjectMapper", '~> 4.2'
-    subspec.dependency "OpenSSL-Universal", '1.1.1900'
+    subspec.dependency "OpenSSL-Universal", '1.1.1100'
     subspec.dependency "ARVideoKit", '~> 1.5.51'
   end
 
